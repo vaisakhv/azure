@@ -1,0 +1,7 @@
+compute:
+  subscription_id: '6688190c-a05f-4ebd-bced-cee2c8b53b35'
+resource_manager:
+  client_id: 'abb0552a-b03d-40aa-873c-322059ab7177'
+  secret: '4cs7mSGtfS2bNs-_Kp._CXX53kl1Mc_dD8'
+  tenant: '53f9d213-5534-4788-ac8a-56e81fb1cbc6'
+  default_resource_group: 'AthenaQAResourceGroup'
