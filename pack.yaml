@@ -1,0 +1,13 @@
+---
+ref: azure_new
+name : Azure_New
+description : Pack for Azure with json credential compatability and bug fixes
+keywords:
+  - Azure
+  - modified
+  - credential
+version: 0.0.1
+#python_versions:
+# - "2"
+author : Infracode
+email : ustmayanotification@gmail.com
