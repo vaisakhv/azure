@@ -1,0 +1,19 @@
+---
+name: Tag_VM
+runner_type: python-script
+description: Allows to Tag a VM in Azure
+enabled: true
+entry_point: tag_vm.py
+parameters:
+  group_name:
+    type: string
+    description: Group name
+    required: true
+  vm_name:
+    type: string
+    description: Name of the VM
+    required: true
+  json_creds:
+    type: string
+    description: json object of credentials
+    required: true

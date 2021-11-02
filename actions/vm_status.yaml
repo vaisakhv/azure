@@ -1,0 +1,13 @@
+---
+name: VM_status
+runner_type: python-script
+description: Allows to List all the VM statuses in Azure subscription
+enabled: true
+entry_point: vm_status.py
+parameters:
+  json_creds:
+    type: string
+    description: json object of credentials
+    required: true
+
+

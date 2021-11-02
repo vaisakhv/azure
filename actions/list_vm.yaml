@@ -1,0 +1,12 @@
+---
+name: List_VM
+runner_type: python-script
+description: Allows to List all the VMs in Azure subscription
+enabled: true
+entry_point: list_vm.py
+parameters:
+  json_creds:
+    type: string
+    description: json object of credentials
+    required: true
+

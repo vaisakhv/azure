@@ -1,0 +1,15 @@
+---
+name: List_VM_From_ResourceGroup
+runner_type: python-script
+description: Allows to List all VMs from a resource group in Azure
+enabled: true
+entry_point: list_vm_from_resourceGroup.py
+parameters:
+  group_name:
+    type: string
+    description: Group name
+    required: true
+  json_creds:
+    type: string
+    description: json object of credentials
+    required: true
